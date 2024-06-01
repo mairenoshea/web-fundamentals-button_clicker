@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <span class="sitetitle">Dojonary</span>
+            <span class="search">Search</span>
+            <div class="loginout"><button onclick="turnLogIn(this)">Logout</button></div>
+        </div>
+        <div class="main">
+            <div class="col1">
+                <div class="definition">
+                    <div class="col1a">
+                        <div class="word">ninja</div>
+                        <div class="speechpart">noun</div> 
+                        <div class="plural">Plural: ninjas</div>
+                        <button onclick="alert('Ninja was liked')">
+                            <div class="likes">13 likes</div>
+                        </button>
+                    </div>
+                    <div class="col1b">
+                        <div class="definitionbody">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></div>
+                    </div>
+                </div>
+                <div class="definition">
+                    <div class="col1a">
+                        <div class="word">ninja</div>
+                        <div class="speechpart">noun</div> 
+                        <div class="plural">Plural: ninjas</div>
+                        <button onclick="alert('Ninja was liked')">
+                            <div class="likes">
+                                37 likes
+                            </div>
+                        </button>   
+                    </div>
+                    <div class="col1b">
+                        <div class="definitionbody">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="col2box">
+                    <div class="col2text">Dojonary is <br>defined by YOU</div>
+                    <div class="col2button">
+                        <button onclick="hide(this)">
+                            <div class="adddefinition">
+                                Add Definition
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
